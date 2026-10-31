@@ -34,7 +34,7 @@ namespace Book_Данилова.Classes
                  Genre.AllGenres().FindAll(x => x.Id == 1),
                  Author.AllAuthors().FindAll(x => x.Id == 1), 2008));
             allBook.Add(new Book(
-                3, "Дебютная постановка, Том 1",
+                3, "Дебютная постановка. Том 1",
                  Genre.AllGenres().FindAll(x => x.Id == 2),
                  Author.AllAuthors().FindAll(x => x.Id == 2), 2023));
             allBook.Add(new Book(
@@ -42,7 +42,7 @@ namespace Book_Данилова.Classes
                  Genre.AllGenres().FindAll(x => x.Id == 2),
                  Author.AllAuthors().FindAll(x => x.Id == 2), 2023));
             allBook.Add(new Book(
-                5, "Охота на попаданку, Бракованная жена",
+                5, "Охота на попаданку. Бракованная жена",
                  Genre.AllGenres().FindAll(x => x.Id == 2 || x.Id == 3 || x.Id == 4),
                  Author.AllAuthors().FindAll(x => x.Id == 3), 2022));
             return allBook;
